@@ -34,7 +34,7 @@ function runTimer (){
             document.querySelector("#timerVal").textContent = timer;
         } else {
             clearInterval(timerInterval);
-            document.getElementById("bottomPanel").innerHTML = `<h1 style= "color:rgb(4, 161, 137)">Game Finished. You did ${score} Score. </h1>`
+            document.getElementById("bottomPanel").innerHTML = `<h1 style= "color:rgb(10,150, 10)">Game Finished. You did ${score} Score. </h1>`
             document.getElementById("hitVal").textContent = 0;
         }
     }, 1000)

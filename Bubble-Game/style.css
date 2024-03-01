@@ -17,23 +17,23 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(5, 32, 7)
 }
 
 #panel {
     overflow: hidden;
     width: 86%;
     height: 80%;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(30, 30, 30);
     border-radius: 8px;
-
-
+    
+    
 }
 
 #topPanel {
     width: 100%;
     height: 75px;
-    background-color: rgb(6, 39, 63);
+    background-color: rgb(12, 57, 20);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -52,12 +52,14 @@ html, body{
     width: 50px;
     height: 30px;
     background-color: rgb(4, 161, 137);
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 600px;
     font-size: 26px;
+    color: black;
 
 }
 
@@ -69,7 +71,6 @@ html, body{
 
     width: 100%;
     height: calc(100% - 75px);
-    /* background-color: #fff; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,6 +94,6 @@ html, body{
 }
 
 .bubble:hover {
-    background-color: black;
+    background-color: rgb(5, 122, 27);
     cursor: pointer;
 }
