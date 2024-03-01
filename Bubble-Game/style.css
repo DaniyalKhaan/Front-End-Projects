@@ -71,6 +71,8 @@ html, body{
     height: calc(100% - 75px);
     /* background-color: #fff; */
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
 }
